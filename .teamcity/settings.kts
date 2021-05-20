@@ -31,7 +31,7 @@ project {
             all(builds = 6, days = 5)
             history(builds = 4, days = 3)
             artifacts(builds = 2, days = 1)
-            preventDependencyCleanup = true
+            preventDependencyCleanup = false
             option("disableCleanupPolicies", false)
         }
     }
