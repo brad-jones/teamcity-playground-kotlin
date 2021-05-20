@@ -28,10 +28,7 @@ project {
 
     cleanup {
         baseRule {
-            artifacts(builds = 456, days = 123, artifactPatterns = """
-                +:foo
-                -:bar
-            """.trimIndent())
+            artifacts(builds = 456, days = 123)
             option("disableCleanupPolicies", false)
         }
     }
