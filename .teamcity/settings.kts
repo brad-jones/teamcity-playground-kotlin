@@ -28,7 +28,9 @@ project {
 
     cleanup {
         baseRule {
-            artifacts(builds = 456, days = 123)
+            all(builds = 6, days = 5)
+            history(builds = 4, days = 3)
+            artifacts(builds = 2, days = 1)
             option("disableCleanupPolicies", false)
         }
     }
