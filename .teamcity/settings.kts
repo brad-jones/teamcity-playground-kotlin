@@ -28,6 +28,7 @@ project {
 
     cleanup {
         baseRule {
+            artifacts(days = 1)
             option("disableCleanupPolicies", false)
         }
     }
