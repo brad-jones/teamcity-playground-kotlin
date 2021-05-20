@@ -28,7 +28,7 @@ project {
 
     cleanup {
         baseRule {
-            option("disableCleanupPolicies", true)
+            option("disableCleanupPolicies", false)
         }
     }
 }
