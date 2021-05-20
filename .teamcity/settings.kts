@@ -30,7 +30,7 @@ project {
         baseRule {
             all(builds = 6, days = 5)
             history(builds = 4, days = 3)
-            artifacts(builds = 2, days = 1)
+            artifacts(days = 1)
             preventDependencyCleanup = false
             option("disableCleanupPolicies", false)
         }
